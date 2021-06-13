@@ -12,13 +12,17 @@ h1, h2, h3, h4, h5, p {
 font color="white";
 }
 
-.topnav {
+.navbar {
   overflow: hidden;
   background-color: black;
+position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.topnav a {
+.navbar a {
   float: left;
+display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -26,19 +30,14 @@ font color="white";
   font-size: 17px;
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #B0C4DE;
   color: black;
 }
 
-.topnav a.active {
+.navbar a.active {
   background-color: #B0C4DE;
   color: black;
-}
-
-function disableAutoplay() { 
-  vid.autoplay = false;
-  vid.load();
 }
 
 </style>
